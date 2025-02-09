@@ -45,6 +45,10 @@ nav a:hover {
     background-color: #5448c8;
     color: #fffecb;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 200px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #fea82f;
@@ -57,14 +61,17 @@ nav a:hover {
 .msg {
     background-color: #fea82f;
     color: #000;
+    padding: 35px;
 }
 footer {
     background-color: #5448c8;
     color: #fffecb;
+    padding: 25px 50px;
 }
 
 .home-title {
     color: #fea82f;
+    margin-top: 10px;
 }
 h4 {
     color: #5448c8;
@@ -74,6 +81,8 @@ h4 {
 }
 .msg p {
     color: #5448c8;
+    font-size: 8em;
+    padding-bottom: 15px;
 }
 footer a {
     color: #fea82f;
@@ -87,6 +96,7 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .logo {
     width: 80px;
@@ -101,4 +111,24 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+card-img {
+    border: 10px solid #000;
+}
+
+main section img {
+    box-sizing: border-box;
 }
